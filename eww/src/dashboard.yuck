@@ -1,7 +1,5 @@
 (defwidget dashboard []
   (box :orientation "v"
   (header)
-  (audioSliders)
-  (focal)
   (footer)
  ))

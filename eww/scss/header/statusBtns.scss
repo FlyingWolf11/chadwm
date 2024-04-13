@@ -5,12 +5,6 @@
   color: $red;
 }
 
-.min {
-  color: $yellow;
-}
-
 .close:hover , .min:hover{
-  background-color: $grey;
   color: $white;
-  border-radius: 50%; 
 }

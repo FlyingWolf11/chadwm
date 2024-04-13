@@ -2,7 +2,7 @@
     (metric
              :class 'brightness'
              :value brightness
-             :onchange "xbacklight -set {}%"
+             :onchange "brightnessctl set {}%"
              :orientation 'h'
              :flipped false
              )
@@ -10,6 +10,6 @@
 
 (defwidget footer []
   (box :orientation "v"
-  (backlightSlider)
   (btns)
+  (backlightSlider)
  ))

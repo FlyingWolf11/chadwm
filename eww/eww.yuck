@@ -6,11 +6,6 @@
 (include './src/header/fetch.yuck')
 (include './src/header/init.yuck')
 
-; focal
-(include './src/focal/widgets.yuck')
-(include './src/focal/audioSliders.yuck')
-(include './src/focal/init.yuck')
-
 ; footer
 (include './src/footer/btns.yuck')
 (include './src/footer/init.yuck')
@@ -20,8 +15,8 @@
 
 ; whole eww window
 (defwindow eww
-           :geometry (geometry :x "-1%"
-                               :y "-2%"
-                               :anchor "right bottom")
+           :geometry (geometry :x "-10px"
+                               :y "66px"
+                               :anchor "right top")
            :wm-ignore true
 (dashboard))

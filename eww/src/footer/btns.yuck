@@ -17,17 +17,17 @@
   )
 
 (btn :name "󰌾"
-  :command "slock & doas zzz"
+  :command "betterlockscreen --lock blur"
   :class "lock"
  )
 
  (btn :name wifi 
-   :command "iwgtk"
+   :command "rfkill toggle wlan"
    :class "wifi"
   )
 
  (btn :name "" 
-    :command "doas zzz"
+    :command "systemctl poweroff"
     :class "sleep"
   )
 ))
