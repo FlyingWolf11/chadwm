@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/59060246/223068062-d3c9847a-8713-42c7-
 
 # Requirements
 
-- dash (shell)
+- zsh (shell)
 - imlib2 
 - xsetroot package (status2d uses this to add colors on dwmbar)
 - JetbrainsMono Nerd Font or any nerd font but dont forget to set it in config.def.h
@@ -38,6 +38,8 @@ https://user-images.githubusercontent.com/59060246/223068062-d3c9847a-8713-42c7-
 git clone https://github.com/siduck/chadwm --depth 1  ~/.config/chadwm
 cd ~/.config/chadwm/
 mv eww ~/.config
+mkdir ~/Pictures/wallpapers/
+mv framework_north.webp ~/Pictures/wallpapers/
 cd chadwm
 sudo make install
 ```
