@@ -39,7 +39,7 @@ git clone https://github.com/siduck/chadwm --depth 1  ~/.config/chadwm
 cd ~/.config/chadwm/
 mv eww ~/.config
 mkdir ~/Pictures/wallpapers/
-mv framework_north.webp ~/Pictures/wallpapers/
+mv framework_nord.webp ~/Pictures/wallpapers/
 cd chadwm
 sudo make install
 ```
